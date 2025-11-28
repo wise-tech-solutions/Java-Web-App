@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Wise Tech Solutions Releases Nexus Repository</name>
-	      <url>http://localhost:8007/repository/wiseapp-release/</url>
+	      <url>http://nexus:8081/repository/wiseapp-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Wise Tech Solutions Snapshot Nexus Repository </name>
-	      <url>http://localhost:8007/repository/wiseapp-snapshot/</url>
+	      <url>http://nexus:8081/repository/wiseapp-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
